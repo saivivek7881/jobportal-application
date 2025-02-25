@@ -1,0 +1,18 @@
+{% extends "jobs/base.html" %}
+
+{% block title %}Job Details{% endblock %}
+
+{% block content %}
+<h2>{{ job.title }}</h2>
+<p><strong>Company:</strong> {{ job.company_name }}</p>
+<p><strong>Location:</strong> {{ job.location }}</p>
+<p>{{ job.description }}</p>
+{% if user.is_authenticated %}
+<a href="{{ job.id }}/apply/">Apply Now</a>
+{% else %}
+
+<a href="{% url 'apply_job' job.id %}">Apply for Job</a>
+    
+
+{% endif %}
+{% endblock %}
