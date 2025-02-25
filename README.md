@@ -29,10 +29,10 @@ This is a **Job Portal** built using **Django (Python)**, **HTML**, **CSS**, and
 
 
 ### Job Listings
-![Job Listings](./static/screenshots/joblistings.png)
+![Job Listings](./static/screenshots/Joblistings.png)
 
 ### Job Details Page
-![Job Details Page](./static/screenshots/jobdetail.png)
+![Job Details Page](./static/screenshots/Jobdetail.png)
 
 ### Job Apply Page
 ![Employer Dashboard](./static/screenshots/jobapply.png)
